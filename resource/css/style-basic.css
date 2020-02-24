@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: font-latin;
+    src: url(../font/GoodVibrations-Script.ttf);
+}
+
+@font-face {
+    font-family: sub-latin;
+    src: url(../font/Solidaritha-Script.ttf);
+}
+
+@font-face {
+    font-family: sub-font;
+    src: url(../font/Solidaritha-Script.ttf);
+}
+
+.latin{
+    font-family: font-latin;
+}
+
+.sub-latin{
+    font-family: sub-latin;
+}
+
+.sub-latin{
+    font-family: sub-font;
+}
+
+body{
+    line-height: 1.4;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Meet */
+#map {
+    height: 100%;
+}
+
+.gallery{
+    width: 200px;
+}
+
+/* End of Meet */
+
+/* Premium */
+
+.pria, .wanita, .dates-section, .pembukaan-section, .penutupan-section, .photo-section, .rsvp-section, .step{
+    height: 110vh;
+}
+
+.pria{
+    background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0,0,0, .5 )), url('../../images/header.JPG') no-repeat center center /cover;
+}
+
+
+.profile-img{
+    margin-top: -80px;
+}
+
+.card-premium{
+    width: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0,0,0, .5 )), url('../../images/texture-2.png') no-repeat center center /cover;
+}
+
+.btn-nav{
+    width: 150px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 20.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.map-responsive iframe{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+

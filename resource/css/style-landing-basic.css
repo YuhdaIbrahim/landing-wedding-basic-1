@@ -1,0 +1,171 @@
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0,0,0, .5 )), url('../../images/header-2.jpg') no-repeat center center /cover;
+    background-attachment: fixed;
+}
+.header-bawah{
+    margin-top: 5rem;
+}
+
+.hr-header{
+  border-top: 1px solid white;
+  width: 60%;
+}
+
+.black{
+    color: rgb(17, 15, 15);
+}
+
+.btn-kirim{
+    width: 140px;
+}
+
+@keyframes anim-dates{
+  0%{
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+}
+
+50%{
+  transform: scale(.9);
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  -ms-transform: scale(.9);
+  -o-transform: scale(.9);
+}
+  100%{
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+}
+}
+
+.count-dates{
+  width: 100%;
+}
+.counter-item{
+  animation: anim-dates 1s infinite ;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  width: 25%;
+  position: relative;
+  -webkit-animation: anim-dates 1s infinite ;
+}
+
+.counter-timer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+.map-responsive{
+    overflow:hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 36.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.map-responsive iframe{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .img-counting{
+      margin: 20px 0;
+      width: 100px;
+    }
+
+    .counting{
+      font-size: 40px !important;
+      margin-bottom: 40px;
+    }
+
+    .counter-item h3{
+      font-size: 25px !important;
+    }
+    .counter-item p{
+      font-size: 20px !important;
+      padding-bottom: 20px;
+    }
+
+    .pembukaan-title{
+      font-size: 26px !important;
+
+    }
+
+    .pembukaan-body{
+      font-size: 12px !important;
+    }
+
+    .map-responsive{
+
+      padding-bottom: 76.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+  }
+
+    .csrv-title{
+      font-size: 38px !important;
+    }
+
+    .csrv-body{
+      font-size: 12px !important;
+    }
+    
+  }
+
+.csrv-bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0,0,0, .5 )), url('../../images/csrv.jpg') no-repeat center center /cover;
+  background-attachment: fixed;
+}
+
+.dates-bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0,0,0, .5 )), url('../../images/dates.jpg') no-repeat center center /cover;
+  background-attachment: fixed;
+}
+
